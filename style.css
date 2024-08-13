@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+.card__img_wrapper {
+    height: 370px !important;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.trainer__img {
+    height: 100% !important;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 8px;
+}
+
+.trainer__label {
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    background-color: #fff;
+    color: black;
+    padding: 2px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.card__img_wrapper:hover{
+    transform: scale(1.02);
+}
+
+
+
+.card__data_wrapper{
+    margin-top: 15px;
+}
+
+.name__rating_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.trainer__name_wrapper,
+.trainer__rating_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: min-content;
+}
+
+.trainer__name,
+.trainer__rating{
+    line-height: 110%;
+    margin-right: 5px;
+    margin-bottom: 0;
+}
+
+.trainer__name_wrapper i,
+.trainer__rating_wrapper i{
+    font-size: 10px;
+    color: #ffb001;
+}
+
+.trainer__price_wrapper{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.trainer__price_wrapper p{
+    margin-bottom: 8px;
+}
+
+.trainer__detail_wrapper{
+    font-size: 14px;
+}
